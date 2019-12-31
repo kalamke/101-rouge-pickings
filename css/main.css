@@ -1,0 +1,137 @@
+
+/***** FONT FACE STYLE *****/
+
+@font-face {
+    font-family: 'wisdom-script-aj';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/wisdom-script-aj.woff') format('woff');
+    }
+
+/***** BASE STYLES *****/
+
+body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        color: black;
+}
+
+h1, h2, h3, nav {
+        text-transform: uppercase;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 350px;
+    float: left;
+}
+
+/***** HEADER and NAV STYLES *****/
+
+header h1 {
+    font-size: 30px;
+}
+
+h1 span {
+    color: #77a466;
+}
+
+header nav {
+    color: #77a466;
+    float: right;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px; 
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+header img {
+    width: 1200px;
+    border-top: 2px solid #77a466;
+    border-bottom: 2px solid #77a466;
+}
+
+/***** BODY STYLES *****/
+
+main h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+#about p {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#info.full-width  {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    height: 217px;
+}
+
+#info h3 {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#menu ul {
+    color: #77a466;
+    text-align: left;
+    margin: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+#reviews, #locations {
+    line-height: 20px;
+    padding: 0px 30px;
+}
+
+#reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding-bottom: 15px;
+}
+
+/***** FOOTER STYLES *****/
+
+footer h2 {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'wisdom-script-aj';
+    text-transform: none;
+    font-weight: normal;
+}
